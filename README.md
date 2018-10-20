@@ -2,7 +2,8 @@
 Simple image augmentation library focusing on random geometric cropping.
 Different from pipeline-based augmentation libraries, this library efficiently performs cropping and geometric transformations at once.
 As image processing functions such as adding Gaussian noise, blurring, and contrast adjustment are not provided,
-please use the other great libraries like [imgaug](https://github.com/aleju/imgaug) [1], [Augmentor](https://github.com/mdbloice/Augmentor) [2], and [albumentations](https://github.com/albu/albumentations) [3].
+please use the other great libraries like [imgaug](https://github.com/aleju/imgaug) [1], [Augmentor](https://github.com/mdbloice/Augmentor) [2], and [albumentations](https://github.com/albu/albumentations) [3]
+to further transform images cropped by this library.
 
 ![](fig/all1.png?raw=true)
 

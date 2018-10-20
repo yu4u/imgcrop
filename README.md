@@ -11,6 +11,7 @@ to further transform images cropped by this library.
 
 - Simple API, easy to use
 - Efficient; cropping and all geometric transformations are performed at once (by a single perspective transformation)
+- Multiple images and points can simultaneously be transformed with the same transformation
 - Guarantee that all pixels in cropped image are taken from inside the original image (if margin is not used)
 
 
